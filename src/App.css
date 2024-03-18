@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+.footers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+ color: rgba(110, 156, 159, 1);
+}
+.nav-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+ 
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer-info {
+  display: flex;
+}
+
+.image {
+  margin-right: 20px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-maket {
+  background-color: rgba(241, 234, 220, 1);
+
+}
+
+
+
+.footer-logo img {
+  width: 100px; /* Размер вашего логотипа */
+}
+
+.text {
+margin-right: 100px;
+margin-top: 120px;
+}
+
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.o-mogazine {
+  margin-top: 20px;
+}
+
+.tel img {
+  margin-left: 10px;
+}
+
+/* Дополнительные стили для текста в футере */
+.text p {
+  margin: 5px 0;
+}
+
+.header-text h2 {
+    font-size: 55px;
+    margin-top: 50px;
+}
+
+.header-text p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+.header-text button{
+    background-color: rgba(110, 156, 159, 1);
+    color: white;
+    width: 200px;
+    height: 68px;
+    font-size: 17px;
+}
+
+.header-text.strelka{
+    margin-top: 105px;
+    margin-bottom: -28px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.header-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.header-text.slaider{
+   margin-bottom: -112px;
+   margin-left: -112px;
+}
+
+/* .header-img .IMAGE2{
+   
+} */
+
+.header-img .IMAGE2 {
+    position: relative;
+    margin-top: 130px;
+    /* margin-right:-1000px ; */
+    margin-left: -92px; /* Изменяем значение отступа вправо */
+}
+
+.header-img .IMAGE3 {
+    position: absolute;
+     margin-top: 390px;
+     margin-left: -123px;
+}
+
+
+.header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(241, 234, 220, 1);
+    z-index: -1;
+}
+
+.hero {
+    margin-top: 10rem;
+    margin-left: 5rem;
+  }
+  
+  .hero-info {
+    display: flex;
+    gap: 20px;
+  }
+
+  
+  .tovar h4 {
+    margin-top: 10px;
+  }
+  
+  #price {
+    color: rgba(156, 156, 156, 1);
+    text-decoration: line-through;
+  }
+  
+  button {
+    width: 200px;
+    height: 68px;
+    font-size: 17px;
+    
+  }
+
+  .hero button{
+    width: 200px;
+    height: 68px;
+    font-size: 17px;
+   
+    margin-left: 450px;
+  }
+
+  .card img {
+    width: 61px;
+  }
+
+  .card{
+    margin-top: 3rem;
+ 
+  }
+
+  .card h3 {
+    margin-top: 30px;
+  }
+  .card h5 {
+    margin-top: 30px;
+  }
+
+  .cards{
+    display: flex;
+    gap: 60px;
+   
+  }
+
+  .card-info{
+    margin-top: 10rem;
+  }
+
+  .footer-info {
+    margin-top: 10rem;
+  }
+
+  .footer-text h6{
+    color:  rgba(110, 156, 159, 1);
+  }
+
+  .image{
+    margin-top: 5rem;
+  }
+
+  .info{
+    display: flex;
+    gap: 60px;
+  }
+
+  .footer-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.footer-text{
+    margin-left: 100px;
+    margin-top: 18rem;
+}
+  
+  .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .image h2{
+    margin-bottom: 100px;
+    margin-right: 320px;
+  }
+  .footer-text h5{
+    margin-top: 20px;
+  }
+
+  .footer-text h6{
+    margin-top: 20px;
+  }

@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 950px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-link{
+    display: flex;
+    justify-content:space-between ;
+}
